@@ -1,4 +1,135 @@
+<!DOCTYPE html>
 <html>
-    <head></head>
+    <head>
+        <title>My first web</title>
+    </head>
+    <a href="blog.html">Blog</a>
+    <link rel="stylesheet"  href="css/style.css">
+
+    <body>
+        <h1>This is Heading 1</h1>
+        <h2>This is Heading 2</h2>
+        <h3>This is Heading 3</h3>
+        <h4>This is Heading 4</h4>
+        <h5>This is Heading 5</h5>
+        <h6>This is Heading 6</h6>
+
+        <p>Lorem, ipsum dolor sit<strong> amet consectetur adipisicing elit.</strong> Ipsam, explicabo blanditiis? Inventore id possimus quidem minimaem <em> optio porro numquam </em>cupiditate amet illo tenetur pariatur fuga dolorum, sed, et necessitatibus est.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur <a href="https://google.com"> adipisicing elit.</a> Illum sunt, omnis iure, dicta eos temporibus placeat sequi maxime adipisci, libero similique obcaecati a molestias vitae? A animi corporis in quod!</p>
+
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+        </ul>
+
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+        </ol>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                    <th>Location</th>
+                    <th>Sex</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Chiamaka Nwachukwu</td>
+                    <td>chiamakanwachu@gmil.com</td>
+                    <td>20</td>
+                    <td>Enugu</td>
+                    <td>Female</td>
+                </tr>
+                <tr>
+                    <td>John gost</td>
+                    <td>ghostrider@gmil.com</td>
+                    <td>45</td>
+                    <td>Lagos</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>Chukwuma Eneh</td>
+                    <td>flyingblaxe@gmil.com</td>
+                    <td>63</td>
+                    <td>Port-Harcourt</td>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <td>Glory Ajobo</td>
+                    <td>prudencegirl@gmil.com</td>
+                    <td>25</td>
+                    <td>Edo</td>
+                    <td>Female</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <hr>
+        <br>
+
+        <form action="Process.php" method="POST">
+            <div>
+            <label for="">First Name</label>
+            <input type="text" name="firstName" placeholder="Enter Name">
+            </div>
+            <br>
+            <div>
+                <label for="">Last Name</label>
+                <input type="text" name="lastname" placeholder="Enter Name">
+            </div>
+            <br>
+            <div>
+                <label for="">Email</label>
+                <input type="email" name="email" placeholder="Enter email">
+            </div>
+            <br>
+            <div>
+                <label for="">Message</label>
+                <textarea name="message" id="" cols="30" rows="3"></textarea>
+            </div>
+            <br>
+            <div>
+                <label for="">Gender</label>
+                <select name="gender" id="">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="">Age</label>
+                <input type="number" name="age" value="30" placeholder="Enter age">
+            </div>
+            <br>
+            <div>
+                <label for="">Birthday</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <input type="submit" name="submit" value="submit">
+        </form>
+        <br>
+
+        <button>click</button>
+
+        <img src="images/sample.jpg" alt="My sample image" width="200">
+
+
+        <div style="margin-top:500px"></div>
+
+    </body>
 
 </html>
